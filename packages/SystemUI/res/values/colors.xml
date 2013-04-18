@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-/*
+ /*
  * Copyright 2010, The Android Open Source Project
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
@@ -15,7 +15,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
--->
+ -->
 <resources>
     <drawable name="notification_number_text_color">#ff000000</drawable>
     <drawable name="ticker_background_color">#ff1d1d1d</drawable>
@@ -29,13 +29,13 @@
     <drawable name="notification_item_background_legacy_color">#ffaaaaaa</drawable>
     <drawable name="intruder_bg_pressed">#ff33B5E5</drawable>
     <drawable name="notification_header_bg">#FF000000</drawable>
-
+    
     <!-- ==================== system bar only ==================== -->
     <drawable name="system_bar_background">#ff000000</drawable>
     <!-- the darkening filter applied to notifications -->
     <drawable name="notification_icon_area_smoke">#aa000000</drawable>
     <color name="notification_panel_scrim_color">#B0000000</color>
-
+    
     <!-- ==================== pie controls ==================== -->
     <!-- this color is used to darkening the whole screen when pie controls are active -->
     <color name="pie_overlay_color">#cc000000</color>
@@ -47,4 +47,8 @@
     <color name="pie_selected_color">@android:color/holo_blue_light</color>
     <color name="pie_long_pressed_color">#ff8ad5f0</color>
     <color name="pie_outline_color">#dd0099cc</color>
+    
+    <!-- app sidebar info bubble text color -->
+    <color name="app_sidebar_info_bubble_text_color">#ff0099cc</color>
+    <color name="app_sidebar_info_bubble_text_shadow_color">#ff333333</color>
 </resources>
