@@ -255,8 +255,9 @@
     <dimen name="halo_speech_hpadding_short">4dp</dimen>
     <dimen name="halo_speech_hpadding_wide">13dp</dimen>
     <dimen name="halo_speech_vpadding_top">3dp</dimen>
-    <dimen name="halo_speech_vpadding_bottom">3dp</dimen> 
+    <dimen name="halo_speech_vpadding_bottom">3dp</dimen>
     <dimen name="halo_content_max_width">250dp</dimen>
     
-    <dimen name="app_sidebar_item_height">64dp</dimen>
+    <dimen name="app_sidebar_item_size">60dp</dimen>
+    <dimen name="app_sidebar_item_padding">2dp</dimen>
 </resources>
