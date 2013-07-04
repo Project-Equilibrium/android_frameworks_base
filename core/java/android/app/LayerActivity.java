@@ -22,11 +22,26 @@ import android.os.Handler;
 public class LayerActivity extends Activity {
 
     private boolean mResume = false;
+    private Bundle mSavedInstanceState;
+    private boolean mRestarted = false;
+    private boolean mShouldFinish = false;
+
+    @Override
+    public void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        mSavedInstanceState = savedInstanceState;
+    }
+    @Override
+    public void onRestart() {
+        super.onRestart();
+        mRestarted = true;
+    }
 
     @Override
     public void onStart() {
         super.onStart();
         mResume = false;
+        mShouldFinish = mRestarted;
     }
 
     @Override
