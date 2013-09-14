@@ -371,8 +371,4 @@
 
     <!-- Top margin for overflow notifications shown in the P.O.R.N. view -->
     <dimen name="glowpad_overflow_notifications_margin_top">48dp</dimen>
-<<<<<<< HEAD
-=======
-
->>>>>>> 0e846d1... Add active display to ChameleonOS [1/2]
 </resources>
