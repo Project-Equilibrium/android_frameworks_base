@@ -17,7 +17,7 @@
 package android.app;
 
 import android.app.Activity;
-import android.os.Handler;
+import android.os.Bundle;
 
 public class LayerActivity extends Activity {
 
