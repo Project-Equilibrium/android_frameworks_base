@@ -79,7 +79,8 @@
     <uses-permission android:name="android.permission.WRITE_SYNC_SETTINGS" />
 
     <!--Halo-->
-    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW"/>
+    <uses-permission android:name="android.permission.ACCESS_THEME_SERVICE" />
     
     <uses-permission android:name="android.permission.PACKAGE_USAGE_STATS" />
 
